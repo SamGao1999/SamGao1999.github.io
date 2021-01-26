@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width" , initial-scale="1.0" />
     <meta name="keywords" content="HTML, CSS" />
     <meta name="description" content="JavCode Share" />
+    <script src="functions/login.js"></script>
     <title>JavShare</title>
     <a href="/index.html">
       <h1>JavShare</h1>
@@ -76,12 +77,30 @@
     <div class="textbox">
       <h1>Login</h1>
       <div class="login">
-        <input type="text" placeholder="Username" name="" value="" />
+        <input
+          type="text"
+          placeholder="Username"
+          name=""
+          value=""
+          id="username"
+        />
       </div>
       <div class="password">
-        <input type="password" placeholder="Password" name="" value="" />
+        <input
+          type="password"
+          placeholder="Password"
+          name=""
+          value=""
+          id="password"
+        />
       </div>
-      <input class="btn" type="button" name="Login" value="Sign In" />
+      <input
+        class="btn"
+        type="button"
+        name="Login"
+        value="Sign In"
+        onclick="getInfo()"
+      />
       <input
         class="btn"
         type="button"
