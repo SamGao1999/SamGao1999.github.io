@@ -33,5 +33,8 @@ function getInfo(){
     if(status==false){
         alert("Login failed")
     }
+    else{
+        location.href = 'contact.html'
+    }
 
 }
