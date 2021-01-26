@@ -1,7 +1,7 @@
 var objPeople = [
     {
         username:"Sam",
-        password:"Qq81881664"
+        password:"samsam"
     },
     {
         username:"Wilson",
